@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    background-color: rgb(6, 78, 78);
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 70px;  
+    background-color: #dd8d25;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    padding: 15px 10px;
+}
+nav ul{
+    margin: 0 40px;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 10px 20px;
+    color: rgb(243, 240, 240);
+    background-color: #dd8d25;
+}
+h1 {
+    font-size: 50px;   /*tamano de la letra */
+    color: rgba(171, 247, 239, 0.741);       
+    background-color: rgb(3, 21, 23);   /*color de fondo*/
+    padding: 10px;             /*espaciado interno*/
+
+    margin: 25px;              /*espaciado externo*/
+}
+p{
+    font-size: 20px;
+    text-align: center;      /*alineado del texto*/
+    font-weight: bold;        /*colocar negrilla*/
+    color: rgba(138, 244, 233, 0.751);
+    padding-left: 160PX;
+    padding-right: 160PX;
+}
+h2{
+    text-align: left;
+    color: rgb(245, 101, 17);
+    
+    
+}
+h3{
+    display: flex;
+    color: rgb(245, 101, 17);
+    justify-content: center;
+    background-color: #031a1c9d;
+    padding: 7px;
+    
+}
+.imgf {
+    width: 1550px;
+    height: 600px;
+    text-align: center;
+
+}
+a{
+    font-size: 30px;
+    color: rgb(245, 101, 17);
+    text-align: center;
+   
+
+}
+li{
+    font-size: 20px;
+    color: rgba(138, 244, 233, 0.751);
+}
+
+.lado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 100, 100);}
+.imglado {
+    width: 650px;
+    height: 450px;
+}
+.txt{
+    margin-right: 90px;
+}
+.lado1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 100, 100);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.txt1 {
+    margin: 20px;
+}
+.imglado1 {
+    width: 550px;
+    height: 350px;
+    margin-right: 90px;
+}
+.ver {
+    font-size: 30px;
+    color: rgb(245, 101, 17);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: #0a0a0a;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li{
+    font-size: 25 px;
+    display: inline;
+    padding: 0px 20px;
+    color: aliceblue;
+}
